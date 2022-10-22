@@ -104,20 +104,20 @@ export const SideMenu = () => {
                         <ListItemIcon>
                             <CategoryOutlined />
                         </ListItemIcon>
-                        <ListItemText primary={'Productos'} />
+                        <ListItemText primary={'Products'} />
                     </ListItem>
                     <ListItem button>
                         <ListItemIcon>
                             <ConfirmationNumberOutlined />
                         </ListItemIcon>
-                        <ListItemText primary={'Ordenes'} />
+                        <ListItemText primary={'Orders'} />
                     </ListItem>
 
                     <ListItem button>
                         <ListItemIcon>
                             <AdminPanelSettings />
                         </ListItemIcon>
-                        <ListItemText primary={'Usuarios'} />
+                        <ListItemText primary={'Users'} />
                     </ListItem>
                 </List>
             </Box>
