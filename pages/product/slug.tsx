@@ -30,10 +30,7 @@ const ProductPage = () => {
                         <Box sx={{ my: 2 }}>
                             <Typography variant="subtitle2">Amount</Typography>
                             <ItemCounter />
-                            <SizeSelector
-                                // selectedSize={ product.sizes[2] }
-                                sizes={product.sizes}
-                            />
+                            <SizeSelector selectedSize={product.sizes[2]} sizes={product.sizes} />
                         </Box>
 
                         {/* Add to shopping card */}
